@@ -6,4 +6,4 @@ def index(request):
     # AAAAAAAAAAAAAGRIA
     print('Soy un log de un servidor ')
     print('--Entrando al index--')
-    return HttpResponse('por la chucha')
+    return render(request, 'index.html')
